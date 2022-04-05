@@ -1,7 +1,10 @@
+import React, { Component } from 'react';
 
 function App() {
-  return (
-    <div><h1>Hello-World!</h1></div>
+  return React.createElement(
+    "h1",
+    null,
+    "Hello, world!"
   );
 }
 
